@@ -1,0 +1,1 @@
+universal-ssg.netlify.app
