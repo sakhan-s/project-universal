@@ -1,1 +1,1 @@
-universal-ssg.netlify.app
+https://universal-ssg.netlify.app
