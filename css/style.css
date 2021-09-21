@@ -155,7 +155,6 @@ sup {
 
 a {
   color: black;
-  text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
 }
@@ -510,7 +509,6 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
 }
 
 .blockquote {
@@ -7434,7 +7432,6 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   color: black !important;
-  text-transform: uppercase;
   margin-bottom: 1.5rem !important;
 }
 
@@ -7459,7 +7456,6 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  text-transform: uppercase;
   margin-bottom: 3rem !important;
 }
 
