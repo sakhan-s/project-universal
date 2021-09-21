@@ -32,7 +32,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Poppins", sans-serif;
+  --font-family-sans-serif: "Tenor", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -43,7 +43,7 @@
 }
 
 html {
-  font-family: 'Tenor Sans', sans-serif;;
+  font-family: 'Tenor Sans', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -3032,10 +3032,10 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #757575;
+  color: white;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3170,7 +3170,7 @@ input[type="button"].btn-block {
   margin-right: 0.255em;
   vertical-align: 0.255em;
   content: "";
-  border-top: 0.3em solid transparent;
+  border-top: 0.3em solid black;
   border-right: 0.3em solid;
   border-bottom: 0.3em solid transparent;
 }
@@ -3190,32 +3190,32 @@ input[type="button"].btn-block {
 
 .dropdown-divider {
   height: 0;
-  margin: 0.5rem 0;
+  margin: 0 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid black;
 }
 
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  padding: 0.8rem .3rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: white;
   text-align: inherit;
   white-space: nowrap;
-  background-color: transparent;
+  background-color: black;
   border: 0;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: wheat;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: black;
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: black;
   text-decoration: none;
   background-color: black;
 }
@@ -7321,6 +7321,7 @@ button.bg-dark:focus {
 }
 
 .m-0 {
+  color: white;
   margin: 0 !important;
 }
 
@@ -9271,7 +9272,7 @@ button.bg-dark:focus {
 
 .text-primary {
   color: black !important;
-  -webkit-text-stroke: .02em white;
+  -webkit-text-stroke: .03em rgba(209, 160, 160, 0.692);
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9550,8 +9551,8 @@ p,
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(102, 51, 51, 0.9), rgba(0, 0, 0, 0.8)), url(../img/header.jpg);
-  background-position: top;
+  background: linear-gradient(rgba(20, 5, 5, 0.938), rgba(0, 0, 0, 0.8)), url(../img/header.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9578,7 +9579,7 @@ p,
   display: block;
   width: 60px;
   height: 60px;
-  background: black;
+  background: white;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -9595,11 +9596,11 @@ p,
   height: 60px;
   background: black;
   border-radius: 50%;
-  transition: all 200ms;
+  transition: all 500ms;
 }
 
 .btn-play:hover:after {
-  background: #cc3a00;
+  background: white;
 }
 
 .btn-play span {
@@ -9608,7 +9609,7 @@ p,
   z-index: 3;
   width: 0;
   height: 0;
-  border-left: 16px solid #1F1F2E;
+  border-left: 16px solid white;
   border-top: 11px solid transparent;
   border-bottom: 11px solid transparent;
 }
