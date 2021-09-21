@@ -9549,11 +9549,12 @@ p,
 }
 
 .jumbotron {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/header.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.8)), url(../img/header.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .btn-play {
   position: relative;
