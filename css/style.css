@@ -82,7 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
+  margin: 12px 22px 22px 22px;
   margin-bottom: 1rem;
 }
 
@@ -391,7 +391,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.55rem;
 }
 
 @media (max-width: 1200px) {
@@ -1082,8 +1082,8 @@ pre code {
     max-width: 25%;
   }
   .col-md-4 {
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
   .col-md-5 {
     flex: 0 0 41.66667%;
@@ -2887,7 +2887,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-dark {
-  color: #1F1F2E;
+  color: white;
   border-color: #1F1F2E;
 }
 
@@ -7321,7 +7321,7 @@ button.bg-dark:focus {
 }
 
 .m-0 {
-  color: white;
+  color: black;
   margin: 0 !important;
 }
 
@@ -9147,7 +9147,9 @@ button.bg-dark:focus {
   content: "";
   background-color: rgba(0, 0, 0, 0);
 }
-
+.text-about {
+  font-size: 13px;
+}
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
@@ -9328,7 +9330,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #1F1F2E !important;
+  color: white !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -9579,7 +9581,7 @@ p,
   display: block;
   width: 60px;
   height: 60px;
-  background: white;
+  background: gray;
   border-radius: 50%;
   animation: pulse-border 1500ms ease-out infinite;
 }
@@ -9600,7 +9602,9 @@ p,
 }
 
 .btn-play:hover:after {
-  background: white;
+  background: black;
+  width: 70px;
+  height: 70px;
 }
 
 .btn-play span {
